@@ -152,7 +152,7 @@ go_register_toolchains()
 
 container_pull(
     name = "py3_image_base",
-    digest = "sha256:d5a717649fd93ea5b9c430d7f84e4c37ba219eb53bd73ed1d4a5a98e9edd84a7",
+    digest = "sha256:80ce2c3ec37a49398f753df9d85dfebfbe069dd8e331cbb37c846a35fbcec78f",
     registry = "gcr.io",
     repository = "distroless/python3-debian10",
     tag = "latest",
