@@ -177,9 +177,9 @@ http_archive(
 
 http_archive(
     name = "com_github_nelhage_rules_boost",
-    url = "https://github.com/nelhage/rules_boost/archive/135d46b4c9423ee7d494c78a21ff621bc73c12f3.tar.gz",
-    sha256 = "3651f5dda0f7296e4cecafacc7f9d1f274be0fd64e30bebd74e28ffba28fe77f",
-    strip_prefix = "rules_boost-135d46b4c9423ee7d494c78a21ff621bc73c12f3",
+    url = "https://github.com/nelhage/rules_boost/archive/2cd6e7b540403fe737a10f90bc53de86a16a6eed.tar.gz",
+    sha256 = "a023496468931c8d64abc4ba036f985f3977da03a7f7680282d7e6d9e42ff27d",
+    strip_prefix = "rules_boost-2cd6e7b540403fe737a10f90bc53de86a16a6eed",
 )
 load("@com_github_nelhage_rules_boost//:boost/boost.bzl", "boost_deps")
 boost_deps()
@@ -226,9 +226,9 @@ maybe(
 # See https://github.com/nelhage/rules_boost, recommended from https://docs.bazel.build/versions/master/rules.html
 http_archive(
     name = "com_github_nelhage_rules_boost",
-    url = "https://github.com/nelhage/rules_boost/archive/98495a618246683c9058dd87c2c78a2c06087999.tar.gz",
-    sha256 = "f92cb7ed66a5b24f97a7fc3917407f808c70d2689273bdd68f93d70a379d22d3",
-    strip_prefix = "rules_boost-98495a618246683c9058dd87c2c78a2c06087999",
+    url = "https://github.com/nelhage/rules_boost/archive/2cd6e7b540403fe737a10f90bc53de86a16a6eed.tar.gz",
+    sha256 = "a023496468931c8d64abc4ba036f985f3977da03a7f7680282d7e6d9e42ff27d",
+    strip_prefix = "rules_boost-2cd6e7b540403fe737a10f90bc53de86a16a6eed",
 )
 load("@com_github_nelhage_rules_boost//:boost/boost.bzl", "boost_deps")
 boost_deps() # Also pulls in a bunch of boost depenencies if you don't have them already. See https://github.com/nelhage/rules_boost/blob/master/boost/boost.bzl
