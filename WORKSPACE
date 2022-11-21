@@ -186,9 +186,9 @@ boost_deps()
 
 http_archive(
     name = "GBDeviceInfo-zip",
-    url = "https://github.com/lmirosevic/GBDeviceInfo/archive/6.3.0.zip",
-    sha256 = "4ef4320c4880fd64cfb7f42132f4b02fa626bccf1ba3e1a71dfbfcb50735f141",
-    strip_prefix = "GBDeviceInfo-6.3.0/GBDeviceInfo"
+    url = "https://github.com/lmirosevic/GBDeviceInfo/archive/7.1.0.zip",
+    sha256 = "020372f48737f118029862d6d17521f32a40a4d626adcca0e24b3b1dbf193dec",
+    strip_prefix = "GBDeviceInfo-7.1.0/GBDeviceInfo"
 )
 
 http_archive(
