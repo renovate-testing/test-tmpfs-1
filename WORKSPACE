@@ -12,7 +12,7 @@ workspace(name = "angular_bazel_example")
 go_repository(
     name = "com_github_bitly_go-nsq",
     importpath = "github.com/bitly/go-nsq",
-    tag = "v1.0.5"
+    tag = "v1.1.0"
 )
 
 go_repository(
