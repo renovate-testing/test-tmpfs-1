@@ -48,9 +48,9 @@ ts_repositories()
 
 http_archive(
     name="distroless",
-    sha256="f7a6ecfb8174a1dd4713ea3b21621072996ada7e8f1a69e6ae7581be137c6dd6",
-    strip_prefix="distroless-446923c3756ceeaa75888f52fcbdd48bb314fbf8",
-    urls=["https://github.com/GoogleContainerTools/distroless/archive/446923c3756ceeaa75888f52fcbdd48bb314fbf8.tar.gz"]
+    sha256="6b8fd04a62c5dfb07f0f297b9bb05b275c1b0da851a4188f32bc213cd63e364a",
+    strip_prefix="distroless-233f0ccb094a1d2dd051a3f90c2f592c433bb1cd",
+    urls=["https://github.com/GoogleContainerTools/distroless/archive/233f0ccb094a1d2dd051a3f90c2f592c433bb1cd.tar.gz"]
 )
 
 http_archive(
@@ -116,9 +116,9 @@ http_archive(
 
 http_archive(
     name="distroless",
-    sha256="f7a6ecfb8174a1dd4713ea3b21621072996ada7e8f1a69e6ae7581be137c6dd6",
-    strip_prefix="distroless-446923c3756ceeaa75888f52fcbdd48bb314fbf8",
-    urls=["https://github.com/GoogleContainerTools/distroless/archive/446923c3756ceeaa75888f52fcbdd48bb314fbf8.tar.gz"]
+    sha256="6b8fd04a62c5dfb07f0f297b9bb05b275c1b0da851a4188f32bc213cd63e364a",
+    strip_prefix="distroless-233f0ccb094a1d2dd051a3f90c2f592c433bb1cd",
+    urls=["https://github.com/GoogleContainerTools/distroless/archive/233f0ccb094a1d2dd051a3f90c2f592c433bb1cd.tar.gz"]
 )
 
 load("@bazel_tools//tools/build_defs/repo:utils.bzl", "maybe")
@@ -160,9 +160,9 @@ container_pull(
 
 http_file(
     name="distroless",
-    sha256="f7a6ecfb8174a1dd4713ea3b21621072996ada7e8f1a69e6ae7581be137c6dd6",
-    strip_prefix="distroless-446923c3756ceeaa75888f52fcbdd48bb314fbf8",
-    urls=["https://github.com/GoogleContainerTools/distroless/archive/446923c3756ceeaa75888f52fcbdd48bb314fbf8.tar.gz"]
+    sha256="6b8fd04a62c5dfb07f0f297b9bb05b275c1b0da851a4188f32bc213cd63e364a",
+    strip_prefix="distroless-233f0ccb094a1d2dd051a3f90c2f592c433bb1cd",
+    urls=["https://github.com/GoogleContainerTools/distroless/archive/233f0ccb094a1d2dd051a3f90c2f592c433bb1cd.tar.gz"]
 )
 
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
